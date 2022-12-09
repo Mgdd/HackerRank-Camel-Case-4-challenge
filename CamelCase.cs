@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 class Solution
 {
-
     public static string camelCase(string input)
     {
         string sample = input;
@@ -12,9 +11,7 @@ class Solution
 
 
         string ifCorS = sample.Substring(0, 1); //C or s
-
-
-        string ifMCV = sample.Substring(2, 1);  //C or M or V
+        string ifMCV = sample.Substring(2, 1);  //M or C or V
 
 
         if (ifCorS == "C")
