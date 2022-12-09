@@ -170,21 +170,4 @@ class Solution
         }
         return result;
     }
-
-    static void Main(String[] args)
-    {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution */
-        //List<string> str = Console.ReadLine().TrimEnd().ToList().Select(arrTemp => Convert.ToString(arrTemp)).ToList();
-        List<string> str = new List<string>();
-        string inp = Console.ReadLine();
-        while (inp != string.Empty)
-        {
-            str.Add(inp);
-            inp = Console.ReadLine();
-        }
-        foreach (var x in str)
-        {
-            Console.WriteLine(camelCase(x));
-        }
-    }
 }
